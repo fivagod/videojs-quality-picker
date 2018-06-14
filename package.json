@@ -11,6 +11,7 @@
   "main": "./dist/vjs-quality-picker.js",
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack",
+    "uglify": "uglifyjs dist/vjs-quality-picker.js --compress -o dist/vjs-quality-picker.min.js",
     "dev": "webpack-dev-server",
     "lint": "eslint lib/"
   },
